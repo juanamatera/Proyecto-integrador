@@ -1,9 +1,12 @@
-
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 50% 25%;
+}
 
 .main-header{
     background-color: black;
-}
+    display: flex;
+    width: 50% ;
 
-.logo{
-    width: 20px;
 }
