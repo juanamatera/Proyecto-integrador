@@ -53,18 +53,31 @@ body{
     margin-left: 42%;
     padding-top: 60px;
 }
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
 .banner img {
     opacity: 90%;
     width: 1800px;
     display: flex;
     justify-content: center;
+        
 }
 
 .banner h1 {
+
     color: white;
-    font-size: 60px;
-    margin: 0px;
+    font-size: 100px;
+    margin-left: 100px;
+    display: flex;
+    width: 30px;
+    flex flex-wrap: wrap;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%)
 }
 
 .main-footer {
@@ -74,7 +87,6 @@ body{
     margin-top: 100px;
     height: 80px;
     width: 100%;
-    text-align: center;
     align-items: center;
 }
 
