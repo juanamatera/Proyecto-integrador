@@ -1,0 +1,33 @@
+.main-footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.main-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap; 
+}
+
+.main-footer li {
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.main-footer img {
+    width: 100px;
+    margin-left: 44%;
+}
