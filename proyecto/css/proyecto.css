@@ -70,7 +70,6 @@ body{
 }
 
 .banner h1 {
-
     color: white;
     font-size: 100px;
     margin-left: 100px;
@@ -79,7 +78,8 @@ body{
     flex-wrap: wrap;
     position: absolute;
     top: 40%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    display: block;
 }
 
 .main-footer {
@@ -115,7 +115,6 @@ body{
 
 .main-footer img {
     width: 100px;
-    margin-left: 37%;
-    margin-bottom: 20px;
+    margin-left: 44%;
 
 }
