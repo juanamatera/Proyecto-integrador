@@ -2,25 +2,32 @@
 .main-header{
     background-color: black;
     align-self: stretch;
+    height: 300px;
 }
 
 
 .main-nav ul {
 
     list-style-type: none;
-  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: stretch;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
+    height: 30px;
   }
 
 .main-nav li{  
     background-color: rgb(247, 208, 215);
+    color: black;
     text-align: center;
     margin-right: 30px;
     text-decoration: none;
     /* NO SE POR QUE NO ANDA EL TEXT DECORATION, XQ SIGUE APARECIENDO SUBRAYADO*/
+}
+
+.main-header img {
+    height: 30px;
+    width: 30px;
 }
 
