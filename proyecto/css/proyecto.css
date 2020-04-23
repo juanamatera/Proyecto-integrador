@@ -76,7 +76,7 @@ body{
     margin-left: 100px;
     display: flex;
     width: 30px;
-    flex flex-wrap: wrap;
+    flex-wrap: wrap;
     position: absolute;
     top: 40%;
     transform: translate(-50%, -50%)
