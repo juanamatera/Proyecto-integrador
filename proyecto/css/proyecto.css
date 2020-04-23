@@ -83,11 +83,13 @@ body{
 
 .main-footer {
     text-decoration: none;
+    list-style: none;
     font-size: small;
+    color: white
 }
 
 .main-footer img {
     width: 100px;
-    margin-left: 40%;
+    margin-left: 44%;
 
 }
