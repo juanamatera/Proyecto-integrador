@@ -1,10 +1,15 @@
-
+*{box-sizing: border-box;}
 body{
+    width: 100%;
+    margin: 0;
     background-color:  rgba(247, 210, 216, 0.938);
-    margin: auto;
+    display: grid;
  }
 
 .container {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 50% 25%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -27,7 +32,7 @@ body{
     align-content: stretch;
     flex-wrap: nowrap; 
     height: 40px;
-    padding: 60px;
+    
     width: 100%;
     padding-left: 15px;
   }
@@ -60,11 +65,12 @@ body{
     position: relative;
     text-align: center;
     color: white;
+    width: 100%;
 }
 
 .banner img {
     opacity: 90%;
-    width: 1800px;
+    width: 100%;
     display: flex;
     justify-content: center;
         
@@ -72,7 +78,7 @@ body{
 
 .banner h1 {
     color: white;
-    font-size: 100px;
+    font-size: 90px;
     margin-left: 100px;
     display: flex;
     width: 30px;
