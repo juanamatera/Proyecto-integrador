@@ -56,3 +56,6 @@ body{
     padding-top: 60px;
 }
 
+.main-banner .h1{
+    justify-content: center;
+}
