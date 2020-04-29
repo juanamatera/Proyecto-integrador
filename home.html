@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Deezer</title>
-    <link rel="stylesheet" href="proyecto/css/proyecto.css">
+    <link rel="stylesheet" href="proyecto/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -26,22 +26,71 @@
         </header>
     </div>
 
-    <section class="vip-products">
-        <article class="product">
+    <section class="Listas">
+        <h1>Rankings de éxitos</h1>
+        <section class="Buscador">
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Buscar..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>    
+        </section>
+        <ul class="ListasRankings">
+            <li><a href="">ARTISTAS</a></li>
+            <li><a href="">ALBUMES</a></li>
+            <li><a href="">PODCASTS</a></li>
+        </ul>
+    </section>
+       
+
+    <section class="Lista-artistas">
+        <article class="artista">
             <div class="photo-container">
-                <img class="photo" src="images/img-pdto-1.jpg" alt="pdto 01">
-                <img class="special" src="images/img-nuevo.png" alt="plato nuevo">
-                <a class="zoom" href="#">AMPLIAR FOTO</a>
-            </div>
-            <h2>Lorem ipsum amet</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
-            <a class="more" href="#">ver más</a>
+                <img class="photo" src="Img/Ozuna.png" alt="FotoOzuna">
+            </div> 
+            <h2>Ozuna</h2>
+            <p>1º</p>
         </article>
+
+            <article class="artista">
+                <div class="photo-container">
+                    <img class="photo" src="Img/Billie.png" alt="FotoBillie">
+                </div>
+                <h2>Billie Eilish</h2>
+                <p>2º</p>
+            </article>
+
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/EdSheeran.png" alt="FotoEd">
+                    </div>
+                    <h2>Ed Sheeran</h2>
+                    <p>3º</p>
+                </article>
+
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                        </div>
+                    <h2>Drake</h2>
+                    <p>4º</p>
+                </article>
+    
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/RelsB.png" alt="FotoRels">
+                        </div>
+                    <h2>Rels B</h2>
+                    <p>5º</p>
+                </article>
+    </section>
         
-    <form class="example" action="action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
+
+
+
+
+
+
+
 
       <footer class="main-footer">
         <img src="Img/logo.PNG" alt="logotipo" class="logoFooter">
