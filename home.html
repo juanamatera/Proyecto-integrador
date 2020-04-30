@@ -4,56 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Deezer</title>
-    <link rel="stylesheet" href="proyecto/css/proyecto.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="proyecto/css/home.css">
+    <script
+    src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
 </head>
 <body>
     <div class="container">
 
-		<!-- cabecera -->
-		<header class="main-header">
-			<a href="proyecto.html">
-                <img src="Img/logo.PNG" alt="logotipo" class="logo">
-                </a>
+	<!-- cabecera -->
+    <header class="main-header">
+        <a href="proyecto.html">
+        <img src="Img/logo.PNG" alt="logotipo" class="logo">
+        </a>
 
-			<nav class="main-nav">
-				<ul>
-					<li><a href="home.html"> HOME</a></li>
-					<li><a href="playlist.html">PLAYLISTS</a></li>
-					<li><a href="genero.html">GENEROS</a></li>
-				</ul>
-			</nav>
-        </header>
-    </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html"> HOME</a></li>
+                <li><a href="playlist.html">PLAYLISTS</a></li>
+                <li><a href="genero.html">GENEROS</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="vip-products">
-        <article class="product">
+    <section class="Listas">
+        <h1>Rankings de éxitos</h1>
+        <section class="Buscador">
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Buscar..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>    
+        </section>
+        <ul class="ListasRankings">
+            <li><a href="">ARTISTAS</a></li>
+            <li><a href="">ALBUMS</a></li>
+            <li><a href="">PODCASTS</a></li>
+        </ul>
+    </section>
+       
+
+    <section class="Lista-artistas">
+        <article class="artista">
             <div class="photo-container">
-                <img class="photo" src="images/img-pdto-1.jpg" alt="pdto 01">
-                <img class="special" src="images/img-nuevo.png" alt="plato nuevo">
-                <a class="zoom" href="#">AMPLIAR FOTO</a>
-            </div>
-            <h2>Lorem ipsum amet</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
-            <a class="more" href="#">ver más</a>
+                <img class="photo" src="Img/Ozuna.png" alt="FotoOzuna">
+            </div> 
+            <h2>Ozuna</h2>
+            <p>1º</p>
         </article>
+
+            <article class="artista">
+                <div class="photo-container">
+                    <img class="photo" src="Img/Billie.png" alt="FotoBillie">
+                </div>
+                <h2>Billie Eilish</h2>
+                <p>2º</p>
+            </article>
+
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                        </div>
+                    <h2>Drake</h2>
+                    <p>3º</p>
+                </article>
+    
+                <article class="artista">
+                    <div class="flecha"> 
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </div>
+                </article>
+    </section>
         
-    <form class="example" action="action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
 
-      <footer class="main-footer">
-        <img src="Img/logo.PNG" alt="logotipo" class="logoFooter">
-        <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="playlist.html">PLAYLISTS</a></li>
-            <li><a href="genero.html">GENEROS</a></li>
-        </ul>
-        <ul class="nombres">
-            <li>DAIRA SAPIR</li>
-            <li>JUANA MATERA</li>
-            <li>CALA RUGGERI</li>
-        </ul>
+    <section class="Lista-artistas">
+        <article class="artista">
+            <div class="photo-container">
+                <img class="photo" src="Img/JustinBieberAlbum.png" alt="AlbumJustin">
+            </div> 
+            <h2>Changes</h2>
+            <p>Justin Bieber</p>
+            <p>1º</p>
+        </article>
 
-    </footer>
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/BadBunnyAlbum.png" alt="AlbumBadBunny">
+                    </div>
+                    <h2>YHLQMDLG</h2>
+                    <p>Bad Bunny</p>
+                    <p>2º</p>
+                </article>
+
+                <article class="artista">
+                    <div class="photo-container">
+                        <img class="photo" src="Img/DuaLipaAlbum.png" alt="AlbumDuaLipa">
+                        </div>
+                    <h2>Future Nostalgia</h2>
+                    <p>Dua Lipa</p>
+                    <p>3º</p>
+                </article>
+
+                <article class="artista">
+                    <div class="flecha"> 
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </div>
+                </article>
+            </section>
+
+        <section class="Lista-artistas">
+        <article class="artista">
+            <div class="photo-container">
+                <img class="photo" src="Img/SectasPodcast.png" alt="PodcastSectas">
+            </div> 
+            <h2>Sectas</h2>
+            <p>1º</p>
+        </article>
+
+                    <article class="artista">
+                        <div class="photo-container">
+                            <img class="photo" src="Img/FuturoPodcast.png" alt="PodcastFuturo">
+                        </div>
+                        <h2>El Futuro</h2>
+                        <p>2º</p>
+                    </article>
+
+                    <article class="artista">
+                        <div class="photo-container">
+                            <img class="photo" src="Img/MentePodcast.png" alt="PodcastMente">
+                            </div>
+                        <h2>Entiende tu Mente</h2>
+                        <p>3º</p>
+                    </article>
+                    
+                    <article class="artista">
+                        <div class="flecha"> 
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
+                    </article>
+        </section>
+
+
+<section class="Footer"></section>
+     <footer class="main-footer">
+            <img src="Img/LogoDeezer.png" alt="logotipo" class="logoFooter">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="playlist.html">PLAYLISTS</a></li>
+                    <li><a href="genero.html">GENEROS</a></li>
+                </ul>
+                    <ul class="nombres">
+                    <li>DAIRA SAPIR</li>
+                    <li>JUANA MATERA</li>
+                    <li>CALA RUGGERI</li>
+                </ul>
+        </footer>
+      </section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+    
