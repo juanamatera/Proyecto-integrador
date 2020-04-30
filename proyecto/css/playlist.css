@@ -112,6 +112,7 @@ body{
 .Playlist1 .photo-container{
     position: relative;
     width: 300px;
+    justify-content: center;
 }
 .photo{
     
@@ -135,5 +136,8 @@ body{
     p{ 
         background-color: black;
         color: white;
+        margin-right: 20px;
+        width: 30%;
+        text-align: center;
     }
 
