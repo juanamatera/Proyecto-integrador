@@ -105,6 +105,7 @@ body{
     top: 40%;
     transform: translate(-50%, -50%);
     display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main-footer {
@@ -161,8 +162,8 @@ body{
     align-items: center;
     padding-top: 30px;
     background-color:rgb(252, 250, 250);
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .Porque img {
@@ -173,6 +174,7 @@ body{
 
 .PorqueSoundHub h2 {
     font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .PorqueSoundHub p {
@@ -181,29 +183,39 @@ body{
     padding-bottom: 30px;
 }
 
-.Planes {
+.Informacion {
     display: grid;
-    grid-template-columns: 900px 300px;
+    grid-template-columns: 650px 620px;
     grid-template-rows: 100%;
     width: 100%;
-    height: 600px;
+    height: 550px;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
     background-color:rgb(0, 0, 0);
 }
  
-.Premium {
+.Info {
     color: white;
+    margin-right: 30px;
 }
 
-.Premium h2 {
-    font-size: 40px;
+.Info h2 {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.Premium p {
+.Info p {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 60px;
+}
+
+.FotoInicio img{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .Ayuda {
@@ -214,12 +226,15 @@ body{
 }
 
 .Contactanos h2 {
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .Contactanos p {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .Contactanos p a {
