@@ -109,7 +109,7 @@ body{
     
 }
 .Playlist .Playlist1{
-    width: 380px; 
+    width: 300px; 
     
 }
 .Playlist1 .photo-container{
@@ -190,7 +190,7 @@ body{
         height: 40px;
         margin-left: 80%;
         top: 5px;
-        left: 30px;
+        left: 40px;
 
     }
     .Buscador input[type=text] {
@@ -211,12 +211,19 @@ body{
         border: 1px solid grey;
         border-left: none; 
         cursor: pointer;
-    height: 45px;}
+    height: 42px;}
         
+.Playlist2{ display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;}
 
-        .Playlist .flecha {
+
+        .Playlist2 .flecha {
             color: white;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            margin: 0px;}
+            margin: 0px;
+            
+        }
