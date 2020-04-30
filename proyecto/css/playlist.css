@@ -159,7 +159,9 @@ body{
        height: 25%;
        position: relative;
        justify-content: center;
+
    }
+   
     .Listas h1  {
         width: 100%;
         background-color: rgba(255, 255, 255, 0.486);
@@ -176,9 +178,19 @@ body{
         font-weight: 100;
        
     }
-    .Titulo1{
+    .paquete{
+        width: 250px;
         background-color:rgb(247, 208, 215);
+        border-radius: 10px;
+        padding-left: 20px;
+
+    }
+    .Titulo1{
+       width: 80%;
         font-size: medium;
+        
+        
+        
     }
     .Buscador {
         display: flex;
@@ -230,3 +242,4 @@ body{
             margin: 0px;
             
         }
+     
