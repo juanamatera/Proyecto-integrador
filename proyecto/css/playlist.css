@@ -140,4 +140,15 @@ body{
         width: 30%;
         text-align: center;
     }
-
+    .Listas h1  {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 50px;
+        margin-bottom: 0px;
+        background-color: rgba(255, 255, 255, 0.486);
+    }
+    .Titulo1{
+        background-color:rgb(247, 208, 215);
+        font-size: medium;
+    }
