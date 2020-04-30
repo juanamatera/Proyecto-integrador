@@ -100,28 +100,40 @@ body{
     margin-left: 400px;
 }
 
-.Playlist{ 
-    
-    display: grid;
-    grid-template-columns: 100%;
-    grid-row: 20% 60%;
-    justify-content: space-around;
-}
-.Titulo1{
-    width: 100%;
-    font-size: 70px;
-
-}
-.Presentacion{
+.Playlist{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.photo-container{
-    width: 50%;
-
+.Playlist .Playlist1{
+    width: 380px; 
+}
+.Playlist1 .photo-container{
+    position: relative;
+    width: 300px;
 }
 .photo{
-    width: 300px;
-    border-radius: 100%;
+    
+        border-radius: 50%;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        height: 300px;
 }
+.zoom{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%; 
+    text-align: center;}
+
+    p{ 
+        background-color: black;
+        color: white;
+    }
+
