@@ -215,7 +215,12 @@ body{
         cursor: pointer;
     height: 42px;}
         
+<<<<<<< HEAD
 .Playlist2{ display: flex;
+=======
+.Playlist2{ 
+    display: flex;
+>>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;}
