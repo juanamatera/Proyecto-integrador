@@ -103,33 +103,50 @@ body{
 }
 
 .Playlist{
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
-    padding-left: 60px;
-    
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 330px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color:rgb(0, 0, 0);
 }
+
+.Playlist2{
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 330px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
 .Playlist .Playlist1{
     width: 400px; 
-    
 }
+
 .Playlist1 .photo-container{
     position: relative;
-    width: 300px;
+    width: 280px;
     justify-content: center;
 }
+
 .photo{
-    
-        border-radius: 50%;
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-        height: 300px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
 }
+
+
 .zoom{
     position: absolute;
     top: 40%;
@@ -138,9 +155,10 @@ body{
     text-decoration: none;
     height: 50px;
     width: 100%; 
-    text-align: center;}
+    text-align: center;
+}
 
-    .zoom .plus{
+.zoom .plus{
         position: absolute;
     bottom: 15px;
     left: 0;
@@ -153,28 +171,29 @@ body{
 
     }
     
-    .svg-inline--fa.fa-w-16 {
-        width: 40px;}
-    .svg-inline--fa{
-        width: 40px;
-        height: 30px;
-    }
+.svg-inline--fa.fa-w-16 {
+    width: 40px;
+}
+
+.svg-inline--fa{
+    width: 40px;
+    height: 30px;
+}
    
 
-    p{ 
-        background-color: black;
-        color: white;
-        margin-right: 20px;
-        width: 30%;
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+p{ 
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
    
-.Listas {
+.Playlists {
     width: 100%;
 }
 
-.Listas h1 {
+.Playlists h1 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -183,20 +202,20 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.ListasRankings {
+.ListasPlaylists {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.486);
     position: relative;
-    margin-bottom: 80px;
     width: 100%;
     padding: 0px;
     z-index: 5;
+    margin-bottom: 20px;
   }
 
-.ListasRankings li{  
+.ListasPlaylists li{  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,26 +224,27 @@ body{
     padding-right: 60px;
 }
 
-.ListasRankings li a {
+.ListasPlaylists li a {
     text-decoration: none;
     color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-    .paquete{
-        width: 250px;
+
+.paquete{
+        width: 200px;
         background-color:rgb(247, 208, 215);
         border-radius: 10px;
         padding-left: 20px;
+         margin-left: 30px;
+    }
+.Titulo1{
+    width: 90%;
+        font-size: medium;  
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;  
+    }
 
-    }
-    .Titulo1{
-       width: 80%;
-        font-size: medium;
-        
-        
-        
-    }
-    .Buscador {
+.Buscador {
         display: flex;
         flex-direction: row;
         margin-top: 20px;
@@ -259,21 +279,7 @@ body{
         border: 1px solid grey;
         border-left: none; 
         cursor: pointer;
-    height: 42px;}
-        
-.Playlist2{ 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;}
+        height: 42px;
+}
 
-
-        .Playlist2 .flecha {
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0px;
-            
-        }
      
