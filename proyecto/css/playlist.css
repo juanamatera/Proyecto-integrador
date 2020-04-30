@@ -99,3 +99,29 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 400px;
 }
+
+.Playlist{ 
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: 20% 60%;
+    justify-content: space-around;
+}
+.Titulo1{
+    width: 100%;
+    font-size: 70px;
+
+}
+.Presentacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.photo-container{
+    width: 50%;
+
+}
+.photo{
+    width: 300px;
+    border-radius: 100%;
+}
