@@ -213,6 +213,8 @@ body{
     border: 1px solid grey;
     border-left: none; 
     cursor: pointer;
+    top: 30px;
+    left: 40px;
   }
 
   .artista .flecha {

@@ -215,7 +215,8 @@ body{
         cursor: pointer;
     height: 42px;}
         
-.Playlist2{ display: flex;
+.Playlist2{ 
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;}
