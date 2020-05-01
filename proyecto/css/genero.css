@@ -102,3 +102,9 @@ body{
     margin-left: 400px;
 }
 
+.generos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
