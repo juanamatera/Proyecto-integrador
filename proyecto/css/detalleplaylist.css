@@ -45,11 +45,11 @@ flex-wrap: wrap;
 
     
 
-.artista{
-    color:white
+.artista1{
+    color:white;
+   
 }
 
-   
 
 p{ 
     color: white
@@ -63,11 +63,25 @@ p{
 .a{ 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border:solid white;
     width: 100%;
+    align-items: center;
     }
-
+    .heart{
+        margin-left: 10px;
+    }
+    .artista{
+        
+        width: 52px;
+    }
+    .titulo{
+        width: 130px;
+       
+    }
+       .tiempo{
+           margin-right:10px ;
+       }
 
 
 .main-footer {

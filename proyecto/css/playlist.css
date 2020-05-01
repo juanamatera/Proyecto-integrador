@@ -131,12 +131,17 @@ body{
 
 .Playlist .Playlist1{
     width: 400px; 
+    
 }
 
 .Playlist1 .photo-container{
     position: relative;
     width: 280px;
     justify-content: center;
+   
+}
+a{
+    text-decoration: none;
 }
 
 .photo{
