@@ -138,6 +138,10 @@ body{
     margin-right: 20%;
 }
 
+.artista a {
+    text-decoration: none;
+}
+
 .photo-container img{
     border-radius: 50%;
     width: 200px;
