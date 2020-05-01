@@ -62,7 +62,7 @@ body{
     background-color: black;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 0;
     height: 80px;
     width: 100%;
     align-items: center;
@@ -144,15 +144,18 @@ body{
 }
 
 .generos{
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    margin: auto
 }
 
 .photo{
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 50px;
+    margin-top: 25px;
 }
