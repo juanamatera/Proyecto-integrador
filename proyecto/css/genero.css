@@ -103,9 +103,8 @@ body{
 }
 
 .generos{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px;
-    justify-content: space-around;
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
 }

@@ -7,11 +7,6 @@ body{
 
 .container {
     width: 100%;
-<<<<<<< HEAD
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 50% 25%;
-=======
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
     display: flex;
     flex-wrap: wrap;
 }
@@ -172,10 +167,6 @@ body{
     flex-direction: row;
     justify-content: center;
     height: 60px;
-<<<<<<< HEAD
-    padding-right:10%;
-=======
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
     background-color: rgba(255, 255, 255, 0.486);
     position: relative;
     margin-bottom: 20px;

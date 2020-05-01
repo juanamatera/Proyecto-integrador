@@ -21,7 +21,6 @@ body{
     width: 100%;
     margin-right: 0px;
     position: relative;
-<<<<<<< HEAD
 }
 
 .Registrate {
@@ -34,20 +33,6 @@ body{
     border-right: solid gray 0.5px;
 }
 
-=======
-}
-
-.Registrate {
-    position: absolute;
-    color: gray;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 80%;
-    padding-right: 30px;
-    border-right: solid gray 0.5px;
-}
-
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
 .Sesion {
     position: absolute;
     color: gray;
@@ -177,12 +162,8 @@ body{
     align-items: center;
     padding-top: 30px;
     background-color:rgb(252, 250, 250);
-<<<<<<< HEAD
-    margin-top: 5px;
-=======
     margin-top: 10px;
     margin-bottom: 10px;
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
 }
 
 .Porque img {
@@ -193,10 +174,7 @@ body{
 
 .PorqueSoundHub h2 {
     font-size: 50px;
-<<<<<<< HEAD
-=======
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
 }
 
 .PorqueSoundHub p {
@@ -205,8 +183,6 @@ body{
     padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
-=======
 .Informacion {
     display: grid;
     grid-template-columns: 650px 620px;
@@ -270,7 +246,6 @@ body{
 
 
 
->>>>>>> 84859841f30e2d918be8aaece4f47d7ba6b5e2d3
 
 
 
