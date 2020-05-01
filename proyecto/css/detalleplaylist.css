@@ -68,7 +68,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border:solid white;
+    border: solid rgba(255, 255, 255, 0.5)thin;
+   
     border-left:none ;
     border-right: none;
     width: 100%;
