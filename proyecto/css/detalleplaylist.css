@@ -65,6 +65,8 @@ p{
     flex-wrap: wrap;
     justify-content: space-between;
     border:solid white;
+    border-left:none ;
+    border-right: none;
     width: 100%;
     align-items: center;
     }
