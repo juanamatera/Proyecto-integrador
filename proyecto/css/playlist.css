@@ -215,7 +215,7 @@ p{
     padding: 0px;
     z-index: 5;
     margin-bottom: 20px;
-  }
+}
 
 .ListasPlaylists li{  
     display: flex;
@@ -281,6 +281,17 @@ p{
         border: 1px solid grey;
         border-left: none; 
         cursor: pointer;
-        height: 42px;
-}
-     
+
+    height: 42px;}
+        
+
+
+
+.Playlist2{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;}
+
+
+
