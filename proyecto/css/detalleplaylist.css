@@ -25,11 +25,14 @@ flex-wrap: wrap;
     display: flex;
    flex-wrap: wrap;
    margin-left: 10px;
-   
+   flex-direction: row;
+   margin-bottom: 30px;
   }
   .descripcion {
     color: white;
-    width: 100%;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
   }
 
 .photo-container .photo{
@@ -42,26 +45,50 @@ flex-wrap: wrap;
 
     
 
-.artista{
-    color:white
+.artista1{
+    color:white;
+    
+   
+}
+.svg-inline--fa.fa-w-16{
+margin-left: 10px;
 }
 
-   
 
 p{ 
     color: white
 }
 .canciones{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .a{ 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border:solid white;
+    justify-content: space-between;
+    border: solid rgba(255, 255, 255, 0.5)thin;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
     width: 100%;
+    align-items: center;
     }
-
+    .heart{
+        margin-left: 10px;
+    }
+    .artista{
+        
+        width: 52px;
+    }
+    .titulo{
+        width: 130px;
+       
+    }
+       .tiempo{
+           margin-right:10px ;
+       }
 
 
 .main-footer {
