@@ -146,18 +146,19 @@ body{
 }
 
 .generos{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     margin: auto;
+    background-color: black;
 }
 
 .photo{
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 50px;
     margin-top: 25px;
 }
