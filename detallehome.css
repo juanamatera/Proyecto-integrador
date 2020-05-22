@@ -120,7 +120,7 @@ body{
 
  .TodosLosAlbums {
     display: grid;
-    grid-template-columns: 330px 330px 330px;
+    grid-template-columns: 350px 350px 350px;
     grid-template-rows: 100%;
     margin-left: 140px;
     margin-top: 40px;
