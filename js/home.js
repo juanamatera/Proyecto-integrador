@@ -1,4 +1,5 @@
 
+
 const slider = document.querySelector(".items");
 const slides = document.querySelectorAll(".item");
 const button = document.querySelectorAll(".button");
