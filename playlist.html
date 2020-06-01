@@ -8,154 +8,180 @@
 	<link rel="stylesheet" href="proyecto/css/playlist.css">
 	<link rel="stylesheet" href="proyecto/css/fyhGeneral.css">
 	<script
-    src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
+	src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
+	<script src="js/playlist.js"> </script>
 </head>
-<body>
+<body> 
+	<!-- cabecera -->
+
     <div class="container">
 
-		<!-- cabecera -->
-		<header class="main-header">
-			<a href="proyecto.html">
-			<img src="Img/logo.PNG" alt="logotipo" class="logo">
-			</a>
+    <header class="main-header">
+        <a href="proyecto.html">
+        <img src="Img/logo.PNG" alt="logotipo" class="logo">
+        </a>
 
-			<nav class="main-nav">
-				<ul>
-					<li><a href="home.html"> HOME</a></li>
-					<li><a href="playlist.html">PLAYLISTS</a></li>
-					<li><a href="genero.html">GENEROS</a></li>
-				</ul>
-			</nav>
-		</header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html"> HOME</a></li>
+                <li><a href="playlist.html">PLAYLISTS</a></li>
+                <li><a href="genero.html">GENEROS</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- productos -->
-<section class="Playlists">
-    <h1>Mis Playlists</h1>
-    <section class="Buscador">
-		<form action="">
-			<input type="search">
-			<i class="fa fa-search"></i>
-		  </form> 
-            
+    <section class="Playlists">
+        <h1>Playlists</h1>
+        <section class="Buscador">
+                <form action="">
+                    <input type="search">
+                    <i class="fa fa-search"></i>
+                  </form> 
+        </section>
+        <ul class="ListasPlaylists">
+            <li><a href="">ARTISTAS</a></li>
+            <li><a href="">DESTACADAS</a></li>
+			<li><a href="">GENEROS</a></li>
+			
+        </ul>
     </section>
-    <ul class="ListasPlaylists">
-        <li><a href="">PINK FLOYD</a></li>
-        <li><a href="">ADELE</a></li>
-        <li><a href="">ELECTRONICA</a></li>
-        <li><a href="">POP</a></li>
-        <li><a href="">CHILL</a></li>
-    </ul>
-</section>
+       
+    <!-- Playlists -->
 
-<section class="Playlist">
-    
-	<article class="Playlist1">
-		<div class="photo-container">
-			<a href="detalleplaylist.html">
-			<img class="photo" src= "Img/9780760360613.jpg"alt="pdto 01">
-			<div class="zoom">
-			<i class="far fa-play-circle"></i>
-			</div>
-		</div>
-		<div class="paquete">
-		<h2 class="Titulo1">Pink Floyd</h2>
-		</div>
-		<p> REPRODUCIR</p> 
-	</a>
-			</article>
-	
-	
-			<article class="Playlist1">
-			<div class="photo-container">
-				<a href="detalleplaylist.html">
-				<img class="photo" src= "Img/adele.jpeg"alt="pdto 02">
-				<div class="zoom">
-					<i class="far fa-play-circle"></i>
-				</div>
-			</div>
-		
-		<div class="paquete">
-		<h2 class="Titulo1">Adele</h2>
-		</div>
-			<p>REPRODUCIR</p>
-	</a>
-		</article>
-			
+    <article class="Artistas">
+        <h2>Artistas</h2>
+    </article>
 
-		
-		<article class="Playlist1">
-				<div class="photo-container">
-					<a href="detalleplaylist.html">
-					<img class="photo" src= "Img/electronica.jpg"alt="pdto 03">
-					<div class="zoom">
-						<i class="far fa-play-circle"></i>
-						</div>
-				</div>
-			
-			<div class="paquete">
-			<h2 class="Titulo1">Electronica </h2>
-			</div>
-			<p>REPRODUCIR</p>
-		</a>
-				</article>
-				
-				
-</section>			
-		<section class="Playlist2">
-				<article class="Playlist1">
-					<div class="photo-container">
-						<a href="detalleplaylist.html">
-						<img class="photo" src= "Img/EdSheeran.png"alt="pdto 03">
-						<div class="zoom">
-							<i class="far fa-play-circle"></i>
-						</div>
-					</div>
-				
-				<div class="paquete">
-				<h2 class="Titulo1">POP </h2>
-				</div>
-				<p>REPRODUCIR</p>
-			</a>
-					</article>
+    <section class="TodasPlaylists">
+        <article class="artista">
+            <div class="photo-container">
 
-				
-					<article class="Playlist1">
-						<div class="photo-container">
-							<a href="detalleplaylist.html">
-							<img class="photo" src="Img/chill.jpg"alt="pdto 04">
+                <div class="items">
+                    <div class="item active">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/Ozuna.png" alt="FotoOzuna">
+                        <h2>Ozuna</h2>
+					</a>
 							<div class="zoom">
 								<i class="far fa-play-circle"></i>
-								</div>
-						</div>
-					
-					<div class="paquete">
-					<h2 class="Titulo1">Chill </h2>
-					</div>
-					<p>REPRODUCIR</p>
-				</a>
-						</article>
-					
-
-						<article class="Playlist1">
-							<div class="photo-container">
-								<a href="detalleplaylist.html">
-								<img class="photo" src= "Img/81800813-ilustración-de-signo-de-la-música-vector-icono-impreso-3d-gris-en-fondo-negro-.jpg"alt="pdto 05">
-								<div class="zoom">
-									<div class="plus">
-									<i class="fas fa-plus"></i>
-									</div>
-								</div>
 							</div>
-						
-						<div class="paquete">
-						<h2 class="Titulo1">Nueva Playlist </h2>
-						</div>
-						<p>REPRODUCIR</p>
-					</a>
-							</article>
+                    </div>
+                    <div class=" item next">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/Billie.png" alt="FotoBillie">
+                        <h2>Billie Eilish</h2>
+                    </a>
+                    </div>
+                    <div class="item">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                        <h2>Drake</h2>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="item prev">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="button-container">
+                        <div class="button"><i class="fas fa-angle-left"></i></div>
+                        <div class="button"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+                
+        </article>
+    </section>
+	
+    <article class="Destacadas">
+        <h2>Destacadas</h2>
+    </article> 
 
-</section>
+	<section class="TodasPlaylists">
+        <article class="artista">
+            <div class="photo-container">
 
+                <div class="items">
+                    <div class="item active">
+						<a href="detalleplaylist.html">
+                            <img class="photo" src= "Img/9780760360613.jpg"alt="pdto 01">  </a>
+                                <h2>Pink Floyd</h2>
+                            </div>
+                    <div class=" item next">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/BadBunnyAlbum.png" alt="AlbumBadBunny">
+                        <h2>YHLQMDLG</h2>
+                    </a>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div class="item">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/DuaLipaAlbum.png" alt="AlbumDuaLipa">
+                        <h2>Future Nostalgia</h2>
+                        </a>
+                        <p>Dua Lipa</p>
+                    </div>
+                    <div class="item">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="item prev">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="button-container">
+                        <div class="button"><i class="fas fa-angle-left"></i></div>
+                        <div class="button"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+                
+        </article>
+	</article>
+	</section>
+
+            <article class="Generos">
+                <h2>Generos</h2>
+            </article>  
+
+	<section class="TodasPlaylists">
+        <article class="artista">
+            <div class="photo-container">
+
+                <div class="items">
+                    <div class="item active">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/SectasPodcast.png" alt="PodcastSectas">
+                        <h2>Sectas</h2>
+                    </a>
+                    </div>
+                    <div class=" item next">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/FuturoPodcast.png" alt="PodcastFuturo">
+                        <h2>El Futuro</h2>
+                    </a>
+                    </div>
+                    <div class="item">
+                        <a href="detallehome.html">
+                            <img class="photo" src="Img/MentePodcast.png" alt="PodcastMente">
+                        <h2>Entiende tu Mente</h2>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="item prev">
+                        <img class="photo" src="Img/Drake.png" alt="FotoDrake">
+                    </div>
+                    <div class="button-container">
+                        <div class="button"><i class="fas fa-angle-left"></i></div>
+                        <div class="button"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+                
+        </article>
+
+        </section>
+
+
+</body>
 		
 	
 				
