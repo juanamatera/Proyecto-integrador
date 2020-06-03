@@ -106,9 +106,27 @@
 .nombres{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 
+.Redes {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Redes li {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    color: white;
+    width: 22px;
+    height: 22px;
+    padding-top:3px;
+  }
 
 .Buscador {
     display: flex;
