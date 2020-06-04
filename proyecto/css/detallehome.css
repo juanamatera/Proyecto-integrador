@@ -42,7 +42,7 @@ body{
  }
 
  .artista .Seguir {
-     color: white;
+     color:black;
      font-size: 15px;
      margin-top: 30px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,6 +52,7 @@ body{
     text-align: center;
      padding-top: 10px;
      padding: 10px;
+     background-color:rgba(247, 210, 216, 0.938);
 
  }
 
