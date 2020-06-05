@@ -1,4 +1,5 @@
 
+window.onload = function () {
 
 const slider = document.querySelector(".items");
 const slides = document.querySelectorAll(".item");
@@ -38,4 +39,6 @@ const gotoNum = number => {
     slides[current].classList.add("active");
     slides[prev].classList.add("prev");
     slides[next].classList.add("next");
+}
+
 }
