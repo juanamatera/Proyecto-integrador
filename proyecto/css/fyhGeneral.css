@@ -2,7 +2,7 @@
 .main-header{
     background-color: black;
     align-self: stretch;
-    height: 400px;
+    height: 250px;
     width: 100%;
     margin-right: 0px;
     position: relative;
@@ -34,9 +34,11 @@
     justify-content: center;
     align-content: stretch;
     flex-wrap: nowrap; 
-    height: 40px;
+    height: 30px;
     width: 100%;
     padding-left: 15px;
+    position: absolute;
+    z-index: 10;
   }
 
 .main-nav li{  
@@ -57,11 +59,14 @@
 }
 
 .main-header img {
-    width: 180px;
+    width: 160px;
     display: flex;
     align-items: center;
-    margin-left: 43%;
-    padding-top: 60px;
+    margin-left: 80px;
+    padding-top: 40px;
+    margin-right: none;
+    position: relative;
+    z-index: 5;
 }
 
 
@@ -119,87 +124,4 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     padding-bottom: 5px;
-}
-
-.svg-inline--fa.fa-w-14 {
-    color: white;
-    width: 22px;
-    height: 22px;
-    padding-top:3px;
-  }
-
-.Buscador {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    padding-top: 5px;
-    font-size: 20px;
-    position: absolute;
-    height: 40px;
-    margin-right: 20px;
-    z-index: 10;
-    padding-bottom: 25px;
-    right: 2px;
-  }
-
-  form{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 4px solid white;
-    padding: 5px;
-}
-
-input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
-}
-
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    border-radius: 50%;
-    color: #07051a;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
-
-.fa-search {
-    padding-left: 5px;
-
-}
-
-form:hover{
-    width: 200px;
-    cursor: pointer;
-}
-
-form:hover input{
-    display: block;
-}
-
-form:hover .fa{
-    background: #07051a;
-    color: white;
 }
