@@ -27,13 +27,12 @@ body{
 }
 
 
-.Lista-artistas{
+.Lista{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 100%;
     width: 100%;
     height: 380px;
-    gap: 5px;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
@@ -67,6 +66,12 @@ body{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.photo-container2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 2%;
 }
 .photo-container img:hover {
     background-color: rgba(128, 128, 128, 0.205);
