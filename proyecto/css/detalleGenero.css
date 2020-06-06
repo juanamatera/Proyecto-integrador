@@ -11,6 +11,7 @@ body{
 
 .main-banner{
     width: 100%;
+    border-top: solid rgba(247, 210, 216, 0.938) 1px;
 }
 
 .titulo{
