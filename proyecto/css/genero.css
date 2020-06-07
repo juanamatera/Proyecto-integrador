@@ -60,6 +60,10 @@ body{
     height: 250px;
 }
 
+.photo img:hover {
+    opacity: 50%;
+}
+
 
 .banner img {
     opacity: 90%;
