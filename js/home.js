@@ -25,10 +25,47 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
 
             `
         }
+    
+        let albums = data.albums.data
+        let contenedorAlbums = document.querySelector(".Lista-albums");
+        
+        for (const album of albums) {
+            contenedorAlbums.innerHTML +=`
+             
+        <article class="artista">
+            <div class="photo-container2">
+                <a href="detallehome.html">
+                <img class="photo" src="${album.cover_medium}" alt="FotoOzuna">  </a>
+            </div> 
+            <h2>${album.title}</h2>
+            <p>${album.artist.name}</p>
+        </article>
+
+            `
+        }
+    
+        let tracks = data.tracks.data
+        let contenedorTracks = document.querySelector(".Lista-tracks");
+        
+        for (const track of tracks) {
+            contenedorTracks.innerHTML +=`
+             
+        <article class="artista">
+            <div class="photo-container">
+                <a href="detallehome.html">
+                <img class="photo" src="${track.album.cover_medium}" alt="FotoOzuna">  </a>
+            </div> 
+            <h2>${track.title}</h2>
+            <p>${track.artist.name}</p>
+        </article>
+
+            `
+        }
       
 })
 .catch(function(error){
     console.error(error)
 })
+
 
 }
