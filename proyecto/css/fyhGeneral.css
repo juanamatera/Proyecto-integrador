@@ -18,6 +18,7 @@
     margin-left: 80%;
     padding-right: 30px;
     border-right: solid gray 0.5px;
+    top: 20px;
 }
 
 .Sesion {
@@ -26,6 +27,12 @@
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 90%;
+    top: 20px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .main-nav ul {
@@ -34,11 +41,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: stretch;
     flex-wrap: nowrap; 
-    height: 30px;
-    padding-left: 15px;
-    margin-right: 50px;
+    height: 40px;
+    padding-left: 150px;
     position: absolute;
     z-index: 10;
   }
