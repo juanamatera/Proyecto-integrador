@@ -36,7 +36,14 @@ body{
     justify-content: center;
     align-content: center;
     margin: auto;
-    background-color: rgba(247, 210, 216, 0.938); 
+    background-color:black; 
+}
+
+.textoGenero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 
 .photo{
