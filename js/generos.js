@@ -14,7 +14,7 @@ window.onload = function () {
 				<a href="detalleGenero.html">
                     <img src="${genero.picture_big}">
                 </a>
-                <p class="textoGenero">${genero.name}</p>
+                <h2 class="textoGenero">${genero.name}</h2>
 			</div>
 				
             `
