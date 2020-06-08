@@ -1,3 +1,4 @@
+/* Esta pagina es solo la pagina JS de los artists*/
 
 window.onload = function () {
 
@@ -34,7 +35,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
              
         <article class="artista">
             <div class="photo-container2">
-                <a href="detallehome.html">
+                <a href="detalleAlbum.html">
                 <img class="photo" src="${album.cover_medium}" alt="FotoOzuna">  </a>
             </div> 
             <h2>${album.title}</h2>

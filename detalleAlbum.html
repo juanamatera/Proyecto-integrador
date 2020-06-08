@@ -1,24 +1,21 @@
-<!--Detalle de Artista
-Imagen del artista
-Nombre
-Fans (numero)
-HARD:  top 5 de canciones del artista (hipervínculo a detalle del track)
--->
-<!-- solo nos faltaria hacer clickeable las 5 canciones al detalle de track (pero falta hacer ese detalle)-->
+<!--Detalle de Álbum:
+Imagen de album OK
+Nombre del Álbum OK
+Nombre del artista(hipervínculo al detalle del artista)
+Fecha de salida -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="proyecto/css/detallehome.css">
     <link rel="stylesheet" href="proyecto/css/fyhGeneral.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
-    <title>Artists</title>
+    <link rel="stylesheet" href="proyecto/css/detalleAlbum.css">
+    <title>Albumes</title>
 </head>
 <body>
-    
     <header class="main-header">
         <a href="proyecto.html">
         <img src="Img/logo.PNG" alt="logotipo" class="logo">
@@ -38,27 +35,19 @@ HARD:  top 5 de canciones del artista (hipervínculo a detalle del track)
 
         <article class="artista">
             <div class="photo-container">
-                <img class="photo" src="Img/Ozuna.png" alt="FotoOzuna">
+                <img class="photo" src="Img/badBunAlbum.jpg" alt="AlbumBadBunny">
             </div> 
             <div>
                 <p>ARTISTA</p> 
-                <h2>Ozuna</h2>
+                <div class="artistaClick"> 
+                <a href="detallehome.html" class="nombreArtista">Bad Bunny</a>
+                </div>
                 <p>OYENTES MENSUALES: 31,963,410</p>
+                <p>29 de febrero de 2020</p>
                 <p class="Seguir">SEGUIR</h2>
             </div>
         </article>
     </section>
-
-
-    <section class="Info">
-        <article class="UltimoLanzamiento">
-            <div class="photo-container">
-            <h2>Ultimo lanzamiento</h2>
-                <img class="photo" src="Img/UltimoL.png" alt="UltimoLanzamiento">
-            <h2>MAMACITA</h2>
-            <p>10 ABRIL 2020</p>
-            </div> 
-    
 
     <section class="Populares">
         <h2>Populares</h2>
@@ -96,34 +85,6 @@ HARD:  top 5 de canciones del artista (hipervínculo a detalle del track)
         </section>
     </section>
 
-    <section class="TodosLosAlbums">
-        <article class="Albumes">
-            <div class="photo-container">
-            <h2 class="titulo">Albumes</h2>
-                <img class="photo" src="Img/Nibiru.png" alt="Nibiru">
-            <h2>NIBIRU</h2>
-            <p>2019</p>
-            </div> 
-        </article>
-        
-            <article class="Albumes2">
-                <div class="photo-container">
-                    <img class="photo" src="Img/Aura.png" alt="Aura">
-                <h2>AURA</h2>
-                <p>2018</p>
-                </div> 
-            </article>
-            
-                <article class="Albumes3">
-                    <div class="photo-container">
-                        <img class="photo" src="Img/Odisea.png" alt="Odisea">
-                    <h2>ODISEA</h2>
-                    <p>2017</p>
-                    </div> 
-                 </article>
-    </section>
-
-
     <footer class="main-footer">
         <img src="Img/LogoDeezer.png" alt="logotipo" class="logoFooter">
         <ul>
@@ -142,9 +103,6 @@ HARD:  top 5 de canciones del artista (hipervínculo a detalle del track)
 
 
     </footer>
-</div>
-
-
 
 
 </body>
