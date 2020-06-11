@@ -25,7 +25,10 @@ Redes sociales
 	<link rel="stylesheet" href="proyecto/css/fyhGeneral.css">
 	<script
 	src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
-	<script src="js/playlist.js"> </script>
+    <script src="js/playlist.js"> </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
 </head>
 <body> 
 	<!-- cabecera -->
@@ -47,7 +50,26 @@ Redes sociales
     </header>
 
     <section class="banner">
-        <img src="Img/FondoPlaylist.jpg" alt="fondo1" uk-cover>       
+        <div uk-slideshow="autoplay: true; autoplay-interval: 3000; pause-on-hover: true">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2.7; animation: fade">
+    
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="Img/FondoPlaylist.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="Img/FondoPlaylist2.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="Img/FondoPlaylist3.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            </div>      
     </section>
     
     <section class="Playlists">
