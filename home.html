@@ -26,6 +26,9 @@ Redes sociales OKKK
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
     <script src="js/home.js"> </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -45,8 +48,28 @@ Redes sociales OKKK
         </nav>
     </header>
 
-    <section class="banner">
-        <img src="Img/FondoHome.jpeg" alt="" uk-cover>
+<section class="banner">
+    <div uk-slideshow="autoplay: true; autoplay-interval: 4000; pause-on-hover: true">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2.7; animation: fade">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="Img/FondoHome.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="Img/FondoHome2.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="Img/FondoHome3.jpg" alt="" uk-cover>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
+        </div>
+   
     </section>
 
     <section class="Listas">
