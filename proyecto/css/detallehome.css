@@ -142,7 +142,7 @@ body{
     margin-top: 80px;
     margin-left: 140px;
     margin-bottom: 80px;
-}
+} 
 
 .TodosLosAlbums img {
      width: 200px;
@@ -172,16 +172,14 @@ body{
     border-bottom: solid rgba(128, 128, 128, 0.562) 0.5px;
 }
 
-.Albumes2 {
-    margin-top: 68px;
-}
-
-.Albumes3 {
-    margin-top: 68px;
-}
 
 .fa-heart {
     padding-right: 60px;
+}
+
+.canciones a {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 

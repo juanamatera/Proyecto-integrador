@@ -30,8 +30,7 @@ window.onload = function (){
         contenedorArtista.innerHTML = detalleArtista
 
     })
-
-    /*
+    
     fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + id + "/top")
 
     .then(function(response){
@@ -40,22 +39,51 @@ window.onload = function (){
     .then(function(resultados){
         console.log(resultados);
 
-        let cancion = data.resultados.data
+        let canciones = resultados.data
         let contenedorPopulares = document.querySelector(".canciones");
 
         for (const cancion of canciones) {
-            contenedorPopulares.innerHTML += `<div class="a">
-                    <p class="heart"><i class="fa fa-heart"></i></p>
-                    <a href="detalleTracks.html" class="titulo">${resultados.title}</a>
-                    <p class="tiempo">${resultados.duration}</p>
-                </div>`
+            contenedorPopulares.innerHTML += `<a href="detalletracks.html">
+            <div class="a">
+                <p class="heart"><i class="fa fa-heart"></i></p>
+                <p class="titulo"> ${cancion.title}</p>
+                <p class="tiempo">${cancion.duration}</p>
+            </div>
+            </a>`
+        }
 
-    }
-*/
-   
+    })
 
-.catch(function(error){
-    console.error(error)
-})
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + id + "/albums")
+
+
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(resultados){
+        console.log(resultados);
+
+        let albumesArray = resultados.data
+        let contenedorAlbumes = document.querySelector(".TodosLosAlbums");
+        let DivPhotoContainer = '';
+
+        console.log(albumesArray);
+
+        for (let i = 0; i < 3; i++) {
+            DivPhotoContainer += '<div class="photo-container">';
+            DivPhotoContainer +=    '<img class="photo" src="'+ albumesArray[i].cover_big +'" alt="Nibiru"></img>';
+            DivPhotoContainer +=    '<h2> '+ albumesArray[i].title +' </h2>';
+            DivPhotoContainer +=    '<p>'+ albumesArray[i].release_date +'</p>';
+            DivPhotoContainer += '</div>';
+        }        
+
+        contenedorAlbumes.innerHTML += DivPhotoContainer
+    })
+
+    .catch(function(error){
+        console.error(error)
+    })
+
+
 
 }
