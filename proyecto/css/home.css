@@ -3,7 +3,7 @@ body{
     margin: 0;
     background-color:  rgba(247, 210, 216, 0.938);
     display: grid;
- }
+}
 
 .container {
     width: 100%;

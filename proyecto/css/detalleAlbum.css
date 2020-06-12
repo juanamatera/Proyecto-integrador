@@ -80,7 +80,7 @@ body{
     
 }
 
-.a{ 
+/*.a{ 
     display: flex;
     justify-content: space-around;
     border: solid rgba(255, 255, 255, 0.479) 0.3px;
@@ -90,6 +90,18 @@ body{
     align-items: center;
     width: 80%;
 
+}*/
+
+.a{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid rgba(128, 128, 128, 0.897) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
+    width: 100%;
+    align-items: center;
 }
 
 .heart{
