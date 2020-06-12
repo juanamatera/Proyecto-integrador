@@ -14,7 +14,6 @@ body{
     margin-bottom: 0px;
 }
 
-
 .DetalleArtista img {
     width: 300px;
     height: 300px;
@@ -23,8 +22,28 @@ body{
 
 }
 
+
+.DetalleArtista .info{
+    display: grid;
+    justify-content: center;
+}
+
+.DetalleArtista .artist{
+    display: grid;
+    justify-content: center;
+}
+
+.DetalleArtista .duracion{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+
 .DetalleArtista h1 {
-    align-self: center;
+    display: grid;
+    justify-content: center;
     color: white;
     font-size: 20px;
     margin: 0px;
