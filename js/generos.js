@@ -16,11 +16,9 @@ window.onload = function () {
                     <img src="${genero.picture_big}">
                 </a>
                 <h2 class="textoGenero">${genero.name}</h2>
-			</div>
-				
-            `
+			</div>`
             
-        });
+        })
     })
     .catch(function(error){
         console.error(error)
