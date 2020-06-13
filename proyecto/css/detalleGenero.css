@@ -1,17 +1,52 @@
 body{
-    background-color:  rgba(247, 210, 216, 0.938);
-    margin: auto;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  display: grid;
 }
 
-
-.main-banner .h1{
-    justify-content: center;
+.genero {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background-color:rgb(0, 0, 0);
 }
 
+.genero img {
+  width: 300px;
+  height: 300px;
+  border: solid white 1px;
+  margin-left: 140px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
 
-.main-banner{
-    width: 100%;
-    border-top: solid rgba(247, 210, 216, 0.938) 1px;
+.DetalleGenero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 400px 900px;
+  grid-template-rows: 100%;
+  height: 400px;
+  border-top: solid rgba(247, 210, 216, 0.938) 1px;
+}
+
+.DetalleGenero h2 {
+   color: white;
+   font-size: 60px;
+   margin: 0px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.DetalleGenero p {
+   color: gray;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+}
+
+.NombreGenero {
+  margin-left: 100px;
+  padding-top: 100px;
 }
 
 .titulo{
@@ -39,18 +74,17 @@ body{
 
 .Playlists{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 15% 15% 15% 15% 15%;
     grid-template-rows: 100%;
     width: 100%;
     height: 380px;
-    gap: 0px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     background-color:rgb(0, 0, 0);
     position: relative;
     z-index: 5;
-    border-top:solid rgb(238, 208, 208) 0.1px;
 }
 
 .list {
@@ -84,38 +118,52 @@ body{
   }
 
   .Artistas {
+    left: 130px;
     color: white;
     position: absolute;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 810px;
+    margin-top: 650px;
     z-index: 10;
-    left: 20px;
+    width: 1200px;
+    border-bottom:solid rgb(238, 208, 208) 0.1px;
   }
 
   .Lista-artistas{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 15% 15% 15% 15% 15%;
     grid-template-rows: 100%;
     width: 100%;
-    height: 380px;
+    height: 450px;
     gap: 0px;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 50px;
     background-color:rgb(0, 0, 0);
-    border-top:solid rgb(238, 208, 208) 0.1px;
     border-bottom:solid rgb(238, 208, 208) 0.1px;
     position: relative;
     z-index: 5;
 }
-.photo-container {
-    width: 150px;
-    height: 150px;
-  }
+
 
 .photo-container img{
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+.Titulo {
+text-align: center;
+}
+
+.artista p {
+  color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+.artista h2 {
+  color: white;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
