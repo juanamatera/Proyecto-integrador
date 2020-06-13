@@ -70,11 +70,13 @@ window.onload = function (){
         console.log(albumesArray);
 
         for (let i = 0; i < 3; i++) {
+            DivPhotoContainer += '<article class="Albumes">';
             DivPhotoContainer += '<div class="photo-container">';
             DivPhotoContainer +=    '<img class="photo" src="'+ albumesArray[i].cover_big +'" alt="Nibiru"></img>';
             DivPhotoContainer +=    '<h2> '+ albumesArray[i].title +' </h2>';
             DivPhotoContainer +=    '<p>'+ albumesArray[i].release_date +'</p>';
             DivPhotoContainer += '</div>';
+            DivPhotoContainer += '</article>';
         }        
 
         contenedorAlbumes.innerHTML += DivPhotoContainer
