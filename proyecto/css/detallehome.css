@@ -16,7 +16,6 @@ body{
     padding-top: 30px;
     background-color:rgb(0, 0, 0);
     margin: 0px;
-    margin-bottom: 50px;
     border-top: solid rgba(247, 210, 216, 0.938) 1px;
 }
 
@@ -57,35 +56,12 @@ body{
 
 }
 
-.UltimoLanzamiento {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    margin-left: 140px;
-}
-
-.UltimoLanzamiento img {
-     width: 200px;
-     height: 200px;
-}
-
-.UltimoLanzamiento h2 {
-     font-size: 20px;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     color: white;
-     text-align: center;
-     width: 200px;
-}
-
-.UltimoLanzamiento p {
-     font-size: 10px;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     color: gray;
-     text-align: center;
-     width: 200px;
-}
 
 .Populares h2 {
-     margin: 0;
+     margin-left: 310px;
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 20px;
      padding: 0;
      text-align: left;
      padding-top: 20px;
@@ -106,7 +82,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-left:none ;
     border-right: none;
-    width: 750px;
+    width: 800px;
     align-items: center;
 }
 
@@ -141,7 +117,7 @@ body{
     grid-template-rows: 100%;
     height: 300px;
     margin-top: 30px;
-    margin-left: 140px;
+    margin-left: 310px;
     margin-bottom: 80px;
 } 
 
@@ -159,7 +135,7 @@ body{
     border-bottom: solid rgba(128, 128, 128, 0.562) 0.5px;
     padding-bottom: 10px;
     text-align: left;
-    margin-left: 140px;
+    margin-left: 310px;
     margin-top: 60px;
 }
 
@@ -176,10 +152,8 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     text-align: center;
-    width: 200px;
-    
+    width: 200px;  
 }
-
 
 .fa-heart {
     padding-right: 60px;
@@ -188,6 +162,12 @@ body{
 .canciones a {
     list-style-type: none;
     text-decoration: none;
+}
+
+.canciones {
+    margin-left: 310px;
+    margin-bottom: 50px;
+    width: 800px;
 }
 
 

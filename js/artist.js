@@ -72,7 +72,7 @@ window.onload = function (){
         for (let i = 0; i < 3; i++) {
             DivPhotoContainer += '<article class="Albumes">';
             DivPhotoContainer += '<div class="photo-container">';
-            DivPhotoContainer +=    '<img class="photo" src="'+ albumesArray[i].cover_big +'" alt="Nibiru"></img>';
+            DivPhotoContainer +=    '<img class="photo" src="'+ albumesArray[i].cover_big +'" alt="Nibiru">';
             DivPhotoContainer +=    '<h2> '+ albumesArray[i].title +' </h2>';
             DivPhotoContainer +=    '<p>'+ albumesArray[i].release_date +'</p>';
             DivPhotoContainer += '</div>';
