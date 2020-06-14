@@ -86,6 +86,7 @@
     height: 80px;
     width: 100%;
     align-items: center;
+    border-top: solid rgba(247, 210, 216, 0.938) 1px;
 }
 
 .main-footer ul {
