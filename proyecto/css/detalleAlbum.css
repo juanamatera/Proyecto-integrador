@@ -33,6 +33,10 @@ body{
     text-decoration: none;
 }
 
+.artista .fecha {
+    font-size: 20px;
+}
+
 .nombreArtista {
      text-decoration: none;
      color: white;
