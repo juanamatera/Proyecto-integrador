@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playlist</title>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="proyecto/css/detalleplaylist.css">
     <link rel="stylesheet" href="proyecto/css/fyhGeneral.css">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
@@ -20,7 +23,17 @@
 				<ul>
 					<li><a href="home.html"> HOME</a></li>
 					<li><a href="playlist.html">PLAYLISTS</a></li>
-					<li><a href="genero.html">GENEROS</a></li>
+                    <li><a href="genero.html">GENEROS</a></li>
+                    <li class="buscador"><nav class="uk-navbar-container" uk-navbar>
+                        <div class="uk-navbar-left">
+                            <div class="uk-navbar-item">
+                        <form class="uk-search uk-search-navbar">
+                            <span uk-search-icon></span>
+                            <input class="uk-search-input" type="search" placeholder="Search...">
+                        </form>
+                    </div>
+                </div>
+            </nav></li>
 				</ul>
             </nav>
            

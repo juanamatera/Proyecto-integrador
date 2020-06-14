@@ -27,7 +27,7 @@
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 90%;
-    top: 20px;
+    top: 1px;
 }
 
 .main-nav {
@@ -132,4 +132,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     padding-bottom: 5px;
+}
+
+.uk-navbar-container.uk-navbar{
+    margin-left: 150px;
+    width: 250px;
+    height: 40px;
+}
+
+.uk-search-navbar {
+    width: 220px;
+    margin-bottom: 40px;
+}
+
+.main-nav .buscador {
+    background-color: black;
 }
