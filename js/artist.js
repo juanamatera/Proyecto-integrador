@@ -71,11 +71,13 @@ window.onload = function (){
 
         for (let i = 0; i < 3; i++) {
             DivPhotoContainer += '<article class="Albumes">';
+            DivPhotoContainer += '<a href="detalleAlbum.html?IdAlbum=' + albumesArray[i].id + '">'
             DivPhotoContainer += '<div class="photo-container">';
             DivPhotoContainer +=    '<img class="photo" src="'+ albumesArray[i].cover_big +'" alt="Nibiru">';
             DivPhotoContainer +=    '<h2> '+ albumesArray[i].title +' </h2>';
             DivPhotoContainer +=    '<p>'+ albumesArray[i].release_date +'</p>';
             DivPhotoContainer += '</div>';
+            DivPhotoContainer += '</a>';
             DivPhotoContainer += '</article>';
         }        
 
