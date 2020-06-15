@@ -34,7 +34,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
              
         <article class="artista">
             <div class="photo-container2">
-                <a href="detalleAlbum.html">
+                <a href="detalleAlbum.html?IdAlbum=${album.id}">
                 <img class="photo" src="${album.cover_medium}" alt="FotoOzuna">  </a>
             </div> 
             <h2>${album.title}</h2>
