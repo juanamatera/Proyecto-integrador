@@ -43,7 +43,7 @@ window.onload = function (){
         let contenedorPopulares = document.querySelector(".canciones");
 
         for (const cancion of canciones) {
-            contenedorPopulares.innerHTML += `<a href="detalletracks.html">
+            contenedorPopulares.innerHTML += `<a href="detalletracks.html?IdTrack=${cancion.id}">
             <div class="a">
                 <p class="heart"><i class="fa fa-heart"></i></p>
                 <p class="titulo"> ${cancion.title}</p>
