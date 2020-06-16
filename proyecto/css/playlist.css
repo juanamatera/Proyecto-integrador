@@ -186,3 +186,200 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+
+    body{
+        width: 100%;
+        margin: 0;
+        background-color:  rgba(247, 210, 216, 0.938);
+        display: grid;
+     }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .TodasPlaylists{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        width: 100%;
+        height: 380px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        background-color:rgb(0, 0, 0);
+        margin-bottom: 1px;
+        position: relative;
+        z-index: 5;
+        padding-left: 80px;
+    }
+    
+    .artista h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-right: 40%;
+    }
+    
+    
+    .artista a {
+        text-decoration: none;
+    }
+    
+    .photo-container img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        z-index: 5;
+    }
+    
+    .Playlists {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        display: block;
+        z-index: 10;
+        left: 50%;
+    }
+    
+    .Playlists h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 50px;
+        margin-bottom: 0px;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+      .artista .flecha {
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0px;
+      }
+    
+      .Artistas {
+          color: white;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 820px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          z-index: 10;
+          left: 20px;
+      }
+    
+      .Destacadas {
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 1230px;
+        z-index: 10;
+        left: 20px;
+      }
+    
+      .Generos {
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        z-index: 10;
+        left: 20px;
+        margin-top: 1640px;
+      }
+    
+      .zoom {
+        position: absolute;
+        top: 40%;
+        color: white;
+        text-decoration: none;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+      }
+    
+      .svg-inline--fa {
+          width: 40px;
+          height: 30px;
+        }
+    
+      .fa {
+          box-sizing: border-box;
+          position: absolute;
+          border-radius: 50%;
+          z-index: 10;
+          width: 42.5px;
+          height: 42.5px;
+          padding: 10px;
+          color: black;
+          text-align: center;
+          font-size: 1.2em;
+          transition: all 1s;
+        }
+    
+        .fa-search {
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+        
+        form:hover {
+            width: 200px;
+            cursor: pointed;
+        }
+    
+        form:hover input {
+            display: block;
+        }
+    
+        form:hover .fa {
+            background: black;
+            color: white;
+        }
+    
+    .banner {
+        width: 100%;
+    }
+    
+    
+    .banner img {
+        opacity: 90%;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 5;
+        margin-bottom: 1px;
+    }
+    
+    .uk-h2, h2 {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .uk-h1, h1 {
+      font-weight: bold;
+      font-size: 50px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+}
