@@ -108,54 +108,7 @@ body{
     margin-top: 1640px;
   }
 
-  .zoom {
-    position: absolute;
-    top: 40%;
-    color: white;
-    text-decoration: none;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    z-index: 10;
-  }
 
-  .svg-inline--fa {
-      width: 40px;
-      height: 30px;
-    }
-
-  .fa {
-      box-sizing: border-box;
-      position: absolute;
-      border-radius: 50%;
-      z-index: 10;
-      width: 42.5px;
-      height: 42.5px;
-      padding: 10px;
-      color: black;
-      text-align: center;
-      font-size: 1.2em;
-      transition: all 1s;
-    }
-
-    .fa-search {
-        padding-left: 5px;
-        padding-top: 5px;
-    }
-    
-    form:hover {
-        width: 200px;
-        cursor: pointed;
-    }
-
-    form:hover input {
-        display: block;
-    }
-
-    form:hover .fa {
-        background: black;
-        color: white;
-    }
 
 .banner {
     width: 100%;
@@ -311,55 +264,7 @@ body{
         left: 20px;
         margin-top: 1920px;
       }
-    
-      .zoom {
-        position: absolute;
-        top: 40%;
-        color: white;
-        text-decoration: none;
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        z-index: 10;
-      }
-    
-      .svg-inline--fa {
-          width: 40px;
-          height: 30px;
-        }
-    
-      .fa {
-          box-sizing: border-box;
-          position: absolute;
-          border-radius: 50%;
-          z-index: 10;
-          width: 42.5px;
-          height: 42.5px;
-          padding: 10px;
-          color: black;
-          text-align: center;
-          font-size: 1.2em;
-          transition: all 1s;
-        }
-    
-        .fa-search {
-            padding-left: 5px;
-            padding-top: 5px;
-        }
-        
-        form:hover {
-            width: 200px;
-            cursor: pointed;
-        }
-    
-        form:hover input {
-            display: block;
-        }
-    
-        form:hover .fa {
-            background: black;
-            color: white;
-        }
+   
     
     .banner {
         width: 100%;
