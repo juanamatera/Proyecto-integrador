@@ -52,7 +52,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
              
         <article class="artista">
             <div class="photo-container">
-                <a href="detalleTracks.html?trackID=${track.id}"> 
+                <a href="detalleTracks.html?IdTrack=${track.id}"> 
                 <img class="photo" src="${track.album.cover_medium}" alt="FotoOzuna">  </a>
             </div> 
             <h2>${track.title}</h2>

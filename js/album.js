@@ -20,9 +20,13 @@ fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
         <div>
             <p>ALBUM</p> 
         <div class="artistaClick"> 
-                <h2><a href="detallehome.html" class="nombreArtista">${resultados.title}</a> </h2>
+                <h2>${resultados.title}</h2>
         </div>
-                <p>${resultados.artist.name}</p>
+
+        <a href="detallehome.html?artistID${artist.id}" class="nombreArtista">
+        <p>${resultados.artist.name}</p>
+        </a> 
+        
                 <p class="fecha">${resultados.release_date}</p>
                 <p class="Seguir">SEGUIR</h2>
         </div>
@@ -59,7 +63,7 @@ fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
             DivPhotoContainer += `
             <div class="a">
             <p class="heart"><i class="fa fa-heart"></i></p>
-            <a href="detalletracks.html?IdCancion=${cancion.id}"><p class="titulo">${cancion.title}</p></a>
+            <a href="detalleTracks.html?IdTrack=${cancion.id}"><p class="titulo">${cancion.title}</p></a>
             <p>${durationMin}: ${durationSec} </p> 
              </div>
             `;

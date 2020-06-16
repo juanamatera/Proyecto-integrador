@@ -26,7 +26,7 @@ window.onload = function(){
         <div class="info">
             <p class="cancion">TRACK</p>
             <h1>${resultados.title}</h1> 
-            <a href="detallehome.html?artistID${resultados.artist.id}">
+            <a href="detallehome.html?artistID=${resultados.artist.id}">
                 <p class="artist">${resultados.artist.name}</p>
             </a>
             <p class="duracion">${resultados.duration}</p>
