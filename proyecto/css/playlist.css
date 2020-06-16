@@ -197,7 +197,7 @@ body{
     body{
         width: 100%;
         margin: 0;
-        background-color:  rgba(247, 210, 216, 0.938);
+        background-color: black;
         display: grid;
      }
     
@@ -210,21 +210,22 @@ body{
     .TodasPlaylists{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 100%;
+        grid-template-rows: 33% 33% 33%;
         width: 100%;
-        height: 600px;
-        padding-top: 0px;
-        margin-top: 0;
+        height: 650px;
+        padding-top: 30px;
+        margin-top: 80px;
         background-color:rgb(0, 0, 0);
         margin-bottom: 1px;
         position: relative;
         z-index: 5;
         padding-left: 50px;
+        border-bottom: solid rgba(247, 210, 216, 0.938) 1px;
     }
     
     .artista h2{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         color: white;
         margin-right: 40%;
@@ -233,6 +234,11 @@ body{
     
     .artista a {
         text-decoration: none;
+    }
+
+    .artista p {
+        font-size: 10px;
+        padding-left: 20px;
     }
     
     .photo-container img{
@@ -255,12 +261,12 @@ body{
         z-index: 10;
         left: 50%;
         margin-top: 20px;
-    }
+        }
     
     .Playlists h1 {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 30px;
         border-bottom: solid rgba(247, 210, 216, 0.938) 1px;
         padding-bottom: 20px;
@@ -279,8 +285,8 @@ body{
       .Artistas {
           color: white;
           position: absolute;
-          font-size: 20px;
-          margin-top: 820px;
+          font-size: 10px;
+          margin-top: 460px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           z-index: 10;
           left: 20px;
@@ -289,9 +295,9 @@ body{
       .Destacadas {
         color: white;
         position: absolute;
-        font-size: 20px;
+        font-size: 10px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-top: 1230px;
+        margin-top: 1150px;
         z-index: 10;
         left: 20px;
       }
@@ -303,7 +309,7 @@ body{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         z-index: 10;
         left: 20px;
-        margin-top: 1640px;
+        margin-top: 1920px;
       }
     
       .zoom {
@@ -374,7 +380,7 @@ body{
     .uk-h2, h2 {
         color: white;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
