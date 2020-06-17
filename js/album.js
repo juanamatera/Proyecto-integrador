@@ -1,10 +1,9 @@
 window.onload = function () {
-
-var queryString = location.search;
-var queryStringObj = new URLSearchParams(queryString);
-var id = queryStringObj.get ("IdAlbum")
-
-fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
+    var queryString = location.search;
+    var queryStringObj = new URLSearchParams(queryString);
+    var id = queryStringObj.get ("IdAlbum")
+    
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
 
 .then(function(response){
     return response.json()
@@ -13,7 +12,9 @@ fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
 .then(function(resultados){
     console.log(resultados);
         let contenedorAlbum = document.querySelector(".DetalleArtista")
-        var detalleAlbum = `<article class="artista">
+        var detalleAlbum = `
+        
+        <article class="artista">
         <div class="photo-container">
             <img class="photo" src="${resultados.cover_big}" alt="AlbumBadBunny">
         </div> 
@@ -23,7 +24,7 @@ fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + id)
                 <h2>${resultados.title}</h2>
         </div>
 
-        <a href="detallehome.html?artistID${artist.id}" class="nombreArtista">
+        <a href="detallehome.html?artistID=${resultados.artist.id}" class="nombreArtista">
         <p>${resultados.artist.name}</p>
         </a> 
         

@@ -30,7 +30,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
         let contenedorAlbums = document.querySelector(".Lista-albums");
         
         for (const album of albums) {
-            contenedorAlbums.innerHTML +=`
+            contenedorAlbums.innerHTML += `
              
         <article class="artista">
             <div class="photo-container2">

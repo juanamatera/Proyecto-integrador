@@ -1,6 +1,6 @@
 window.onload = function (){
 
-    var queryString = location.search
+    var queryString = location.search;
     var queryStringObj = new URLSearchParams (queryString);
 
     var id = queryStringObj.get ("artistID")
