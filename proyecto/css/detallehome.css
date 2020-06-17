@@ -181,3 +181,219 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+
+body{
+    width: 320px;
+    margin: 0;
+    background-color: black;
+    display: grid;
+ }
+
+.artista {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 320px 320px;
+    width: 320px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color:rgb(0, 0, 0);
+    margin: 0;
+    border-top: solid rgba(247, 210, 216, 0.938) 1px;
+}
+
+.DetalleArtista {
+    width: 320px;
+}
+
+.DetalleArtista img {
+    width: 250px;
+    height: 250px;
+    border: solid white 1px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+
+.DetalleArtista h2 {
+     color: white;
+     font-size: 30px;
+     margin: 0px;
+     padding-left: 35px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.DetalleArtista p {
+     color: gray;
+     padding-left: 35px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 15px;
+}
+
+.artista .Seguir {
+     color:black;
+     font-size: 15px;
+     margin-top: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 200px;
+     height: 20px;
+     border: solid white 0.5px;
+     text-align: center;
+     padding-top: 10px;
+     padding: 10px;
+     background-color:rgba(247, 210, 216, 0.938);
+     margin-left: 35px;
+
+}
+
+
+.Populares h2 {
+     margin-left: 35px;
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 25px;
+     padding: 0;
+     text-align: left;
+     padding-top: 20px;
+     margin-bottom: 30px;
+     width: 200px;
+}
+
+.Populares {
+    width: 320px;
+}
+
+.a p {
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+.a{ 
+    display: flex;
+    justify-content: space-between;
+    border: solid rgba(255, 255, 255, 0.479) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: none ;
+    border-right: none;
+    width: 250px;
+    align-items: center;
+}
+
+.heart{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titulo{
+    width: 300px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.tiempo{
+    margin-right:10px ;
+}
+
+
+.borde {
+     border-top: solid  rgba(128, 128, 128, 0.562) 0.5px;
+     padding-top: 10px;
+}
+
+.a:hover {
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.TodosLosAlbums {
+    display: grid;
+    width: 320px;
+    grid-template-columns: 320px;
+    grid-template-rows: 350px 350px 350px;
+    height: 1100px;
+    margin: 0;
+} 
+
+.TodosLosAlbums img {
+     width: 200px;
+     height: 200px;
+     margin-left: 60px;
+}
+
+.TodosLosAlbums img:hover {
+    opacity: 50%;
+}
+
+.TituloAlbumes {
+    width: 320px;
+}
+
+ .TituloAlbumes h2{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border-bottom: solid rgba(128, 128, 128, 0.562) 0.5px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.TodosLosAlbums p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    text-align: center;
+    width: 200px;
+    margin-left: 60px;
+}
+
+
+.Albumes h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;  
+    margin-left: 60px;
+}
+
+.fa-heart {
+    padding-right: 60px;
+}
+
+.canciones a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.canciones {
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.uk-h2, h2 {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+}
+
