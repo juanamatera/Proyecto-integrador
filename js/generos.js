@@ -12,7 +12,7 @@ window.onload = function () {
         generos.forEach(genero=> {
             contenedorGeneros.innerHTML += `
             <div class="photo">
-				<a href="detalleGenero.html">
+				<a href="detalleGenero.html?genreID=${genero.id}">
                     <img src="${genero.picture_big}">
                 </a>
                 <h2 class="textoGenero">${genero.name}</h2>
