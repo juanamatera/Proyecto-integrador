@@ -44,7 +44,7 @@ window.onload = function (){
                 `<article class="artista">
 
                 <div class="photo-container">
-                        <a href="detalleHome.html?artistID">
+                        <a href="detalleHome.html?artistID=${artista.id}">
                         <img class="photo" src="${artista.picture_big}" alt="amarAzul"> </a>
                 </div>
     
