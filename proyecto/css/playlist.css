@@ -1,143 +1,164 @@
+*{box-sizing: border-box;}
+
 body{
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    margin: 0px;
     width: 100%;
-    margin: 0;
-    background-color:  rgba(247, 210, 216, 0.938);
-    display: grid;
- }
+}
+.container{
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.principal{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: solid rgba(247, 210, 216, 0.938) 1px;
+    margin-bottom: 20px;
+}
 
-.container {
+.principal .photo-container{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.TodasPlaylists{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 100%;
-    width: 100%;
-    height: 380px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    background-color:rgb(0, 0, 0);
-    margin-bottom: 1px;
-    position: relative;
-    z-index: 5;
-    padding-left: 80px;
-}
-
-.artista h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   flex-direction: row;
+   margin-bottom: 30px;
+  }
+  .descripcion {
     color: white;
-    margin-right: 40%;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .descripcion p {
+      color: grey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 12px;
+  }
+
+  .descripcion .seguidores{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+
+.descripcion .lorem {
+    color: white;
+    font-size: 15px;
 }
 
-
-.artista a {
-    text-decoration: none;
+.descripcion .reproducir {
+    color:black;
+    background-color:rgba(247, 210, 216, 0.938);
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    border: solid white 0.5px;
+   text-align: center;
+    padding-top: 10px;
+    padding: 10px;
 }
 
-.photo-container img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: relative;
-    z-index: 5;
-}
-
-.Playlists {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    display: block;
-    z-index: 10;
-    left: 50%;
-}
-
-.Playlists h1 {
-    display: flex;
-    justify-content: center;
+.photo-container .photo{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: solid white 1px;
     margin-top: 50px;
-    font-size: 50px;
-    margin-bottom: 0px;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 80px;
 }
 
-  .artista .flecha {
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0px;
-  }
+.a:hover { 
+    background-color: rgba(128, 128, 128, 0.205);
+}
 
-  .Artistas {
-      color: white;
-      position: absolute;
-      font-size: 20px;
-      margin-top: 820px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      z-index: 10;
-      left: 20px;
-  }
-
-  .Destacadas {
+.artista1{
     color: white;
-    position: absolute;
-    font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 1230px;
-    z-index: 10;
-    left: 20px;
-  }
-
-  .Generos {
-    color: white;
-    position: absolute;
-    font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    z-index: 10;
-    left: 20px;
-    margin-top: 1640px;
-  }
-
-
-
-.banner {
-    width: 100%;
+    
+   
+}
+.svg-inline--fa.fa-w-16{
+margin-left: 10px;
 }
 
 
-.banner img {
-    opacity: 90%;
-    width: 100%;
-    height: 550px;
+p{ 
+    color: white
+}
+.canciones{
+    width: 90%;
     display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 5;
-    margin-bottom: 1px;
+    flex-wrap: wrap;
+ margin-left: 80px;
+ margin-bottom: 80px;
+    
 }
 
-.uk-h2, h2 {
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.titulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgba(128, 128, 128, 0.897) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
+    width: 100%;
+    align-items: center;
 }
 
-.uk-h1, h1 {
-  font-weight: bold;
-  font-size: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.titulos p {
+    color: grey;
+    font-size: 15px;
 }
+
+.titulos .titulo {
+    padding-left: 380px;
+}
+
+.titulos .artista {
+    padding-left: 100px;
+}
+
+.a{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgba(128, 128, 128, 0.897) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
+    width: 100%;
+    align-items: center;
+    }
+    .heart{
+        margin-left: 10px;
+    }
+    .artista{
+        
+        width: 52px;
+    }
+    .titulo{
+        width: 130px;
+       
+    }
+       .tiempo{
+           margin-right:10px ;
+       }
+
+
+
+
+
+
 
 
 
@@ -147,152 +168,165 @@ body{
 
 @media only screen and (max-width: 320px){
 
-    body{
-        width: 100%;
-        margin: 0;
-        background-color: black;
-        display: grid;
-     }
-    
-    .container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .TodasPlaylists{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 33% 33% 33%;
-        width: 100%;
-        height: 650px;
-        padding-top: 30px;
-        margin-top: 80px;
-        background-color:rgb(0, 0, 0);
-        margin-bottom: 1px;
-        position: relative;
-        z-index: 5;
-        padding-left: 50px;
-        border-bottom: solid rgba(247, 210, 216, 0.938) 1px;
-    }
-    
-    .artista h2{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        text-align: center;
-        color: white;
-        margin-right: 40%;
-    }
-    
-    
-    .artista a {
-        text-decoration: none;
-    }
 
-    .artista p {
-        font-size: 10px;
-        padding-left: 20px;
-    }
-    
-    .photo-container img{
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        position: relative;
-        z-index: 5;
-    }
-    
-    .Playlists {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 42%; 
-        transform: translate(-50%, -50%);
-        display: block;
-        z-index: 10;
-        left: 50%;
-        margin-top: 20px;
-        }
-    
-    .Playlists h1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        font-size: 30px;
-        border-bottom: solid rgba(247, 210, 216, 0.938) 1px;
-        padding-bottom: 20px;
-        color: white;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-      .artista .flecha {
-          color: white;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 0px;
-      }
-    
-      .Artistas {
-          color: white;
-          position: absolute;
-          font-size: 10px;
-          margin-top: 470px;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          z-index: 10;
-          left: 20px;
-      }
-    
-      .Destacadas {
-        color: white;
-        position: absolute;
-        font-size: 10px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-top: 1150px;
-        z-index: 10;
-        left: 20px;
-      }
-    
-      .Generos {
-        color: white;
-        position: absolute;
-        font-size: 20px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        z-index: 10;
-        left: 20px;
-        margin-top: 1920px;
-      }
-   
-    
-    .banner {
-        width: 100%;
-    }
-    
-    
-    .banner img {
-        opacity: 90%;
-        width: 100%;
-        height: 550px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        z-index: 5;
-        margin-bottom: 1px;
-    }
-    
-    .uk-h2, h2 {
-        color: white;
-        font-weight: bold;
-        font-size: 25px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .uk-h1, h1 {
-      font-weight: bold;
-      font-size: 20px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+*{box-sizing: border-box;}
 
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+}
+
+.container{
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: solid rgba(247, 210, 216, 0.938) 1px;
+    margin-bottom: 20px;
+}
+
+.principal .photo-container{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   flex-direction: row;
+   margin-bottom: 30px;
+}
+
+.descripcion {
+    color: white;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.descripcion p {
+      color: grey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 12px;
+}
+
+.descripcion .seguidores{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.descripcion .lorem {
+    color: white;
+    font-size: 15px;
+}
+
+.descripcion .reproducir {
+    color:black;
+    background-color:rgba(247, 210, 216, 0.938);
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    border: solid white 0.5px;
+   text-align: center;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.photo-container .photo{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: solid white 1px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.a:hover { 
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.artista1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.svg-inline--fa.fa-w-16{
+    margin-left: 10px;
+}
+
+p{ 
+    color: white
+}
+
+.canciones{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.titulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgba(128, 128, 128, 0.897) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
+    width: 100%;
+    align-items: center;
+}
+
+.titulos p {
+    color: grey;
+    font-size: 15px;
+}
+
+.titulos .titulo {
+    padding-left: 380px;
+}
+
+.titulos .artista {
+    padding-left: 100px;
+}
+
+.a{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgba(128, 128, 128, 0.897) 0.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left:none ;
+    border-right: none;
+    width: 100%;
+    align-items: center;
+
+}
+
+.heart{
+        margin-left: 10px;
+}
+
+.artista{
+     width: 52px;
+}
+
+.titulo{
+    width: 130px;
+}
+
+.tiempo{
+    margin-right:10px ;
+}
 }
