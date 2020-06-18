@@ -43,11 +43,21 @@ window.onload = function (){
         let contenedorPopulares = document.querySelector(".canciones");
 
         for (const cancion of canciones) {
+
+            console.log(cancion.duration);
+            
+            durationMin = Math.floor(cancion.duration/60);
+                durationSec = cancion.duration - durationMin*60;
+                console.log(durationSec);
+                if (durationSec < 10) {
+                    durationSec = '0' + durationSec;
+                }
+
             contenedorPopulares.innerHTML += `<a href="detalletracks.html?IdTrack=${cancion.id}">
             <div class="a">
                 <p class="heart"><i class="fa fa-heart"></i></p>
                 <p class="titulo"> ${cancion.title}</p>
-                <p class="tiempo">${cancion.duration}</p>
+                <p class="tiempo">${durationMin}: ${durationSec}</p>
             </div>
             </a>`
         }
