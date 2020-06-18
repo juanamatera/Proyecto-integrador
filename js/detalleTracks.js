@@ -42,14 +42,40 @@ window.onload = function(){
             <a href="detalleAlbum.html?IdAlbum=${resultados.album.id}">
                 <p class="nombreAlbum">${resultados.album.title}</p>
             </a>
-            <p class="agregar">AÑADIR A PLAYLIST</h2>
+            <p class="agregar">AÑADIR A PLAYLIST</p>
             
         </div>
     </article>`
 
     contenedorTracks.innerHTML = DetalleArtista
 
+    let agregar = document.querySelector (".agregar")
+
+    agregar.onclick = function(){
+
+        window.localStorage.setItem (`${resultados.id}`, JSON.stringify (resultados))
+
+        if (window.localStorage.getItem ("listId") === null) {
+
+            var lista = [resultados.id]
+            window.localStorage.setItem (`listId`, JSON.stringify (lista))
+            
+        } else {
+
+            var listaSecundaria = JSON.parse (window.localStorage.getItem ("listId"))
+            listaSecundaria.push (resultados.id)
+            window.localStorage.setItem (`listId`, JSON.stringify (listaSecundaria))
+            
+        }
+
+
+    }
+    
+    
+
     })
+
+
 
     
 }
