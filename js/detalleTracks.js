@@ -16,6 +16,15 @@ window.onload = function(){
         console.log(resultados);
         let contenedorTracks = document.querySelector(".DetalleArtista");
 
+        console.log(resultados.duration);
+            
+            durationMin = Math.floor(resultados.duration/60);
+                durationSec = resultados.duration - durationMin*60;
+                console.log(durationSec);
+                if (durationSec < 10) {
+                    durationSec = '0' + durationSec;
+                }
+
         var DetalleArtista = 
         `<article class="artista">
         <div class="photo-container">
@@ -29,7 +38,7 @@ window.onload = function(){
             <a href="detallehome.html?artistID=${resultados.artist.id}">
                 <p class="artist">${resultados.artist.name}</p>
             </a>
-            <p class="duracion">${resultados.duration}</p>
+            <p class="duracion">${durationMin}: ${durationSec}</p>
             <a href="detalleAlbum.html?IdAlbum=${resultados.album.id}">
                 <p class="nombreAlbum">${resultados.album.title}</p>
             </a>
