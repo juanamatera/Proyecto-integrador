@@ -27,7 +27,7 @@ body{
   display: grid;
   grid-template-columns: 400px 900px;
   grid-template-rows: 100%;
-  height: 400px;
+  /*height: 400px;*/
   border-top: solid rgba(247, 210, 216, 0.938) 1px;
 }
 
@@ -111,13 +111,11 @@ body{
   .Lista-artistas{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15%;
-    grid-template-rows: 100%;
     width: 100%;
-    height: 450px;
     gap: 0px;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    margin-top: 150px;
     background-color:rgb(0, 0, 0);
     position: relative;
     z-index: 5;

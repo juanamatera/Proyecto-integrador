@@ -26,7 +26,7 @@ window.onload = function (){
         
         contenedorGenero.innerHTML = detalleGenero
 
-        fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + id + '/artist')
+        fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + id + "/artists")
 
         .then(function(response){
             return response.json()
@@ -35,23 +35,29 @@ window.onload = function (){
         .then(function(resultados){
             console.log(resultados);
            
+            let artistas = resultados.data
             let contenedorArtistas = document.querySelector(".Lista-artistas")
 
-            var detalleArtista =
+            for (const artista of artistas){
+                contenedorArtistas.innerHTML +=
 
-            `<article class="artista">
+                `<article class="artista">
 
-            <div class="photo-container">
-                    <a href="detalleHome.html?artistID">
-                    <img class="photo" src="${resultados.data.picture_big}" alt="amarAzul"> </a>
-            </div>
+                <div class="photo-container">
+                        <a href="detalleHome.html?artistID">
+                        <img class="photo" src="${artista.picture_big}" alt="amarAzul"> </a>
+                </div>
+    
+                <div class="Titulo"> 
+                        <h2>${artista.name}</h2>
+                        <p>Artista</p>
+                </div>
+    
+                </article>`
+                
+                
+            }
 
-            <div class="Titulo"> 
-                    <h2>${resultados.data.name}</h2>
-                    <p>Artista</p>
-            </div>
-
-            </article>`
         })
 
 
