@@ -5,6 +5,8 @@ window.onload = function() {
 
     var loQueBuscoElUsuario = queryStringObj.get('buscador');
 
+    display:block
+
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/track?q=" + loQueBuscoElUsuario)
     .then(function(data){
         return data.json();
@@ -16,7 +18,7 @@ window.onload = function() {
 
         var spinner = document.querySelector(".cargando");
 
-        setTimeout(function(){spinner.style.display = 'none';}, 3000);
+        setTimeout(function(){spinner.style.display = 'none';}, 2000);
 
     });
 

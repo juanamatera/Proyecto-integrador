@@ -10,6 +10,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
 .then(function(data){
     
     console.log(data);
+
+        var spinner = document.querySelector(".cargando");
+        spinner.style.display = "none";
     
         let artistas = data.artists.data
         let contenedorArtistas = document.querySelector(".Lista-artistas");

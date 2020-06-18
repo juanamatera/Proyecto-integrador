@@ -379,10 +379,5 @@ body{
         text-decoration: underline;
       }
 
-      .cargando {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     }
