@@ -5,7 +5,10 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0")
 
 .then(function(response){
     return response.json()
-}).then(function(data){
+})
+
+.then(function(data){
+    
     console.log(data);
     
         let artistas = data.artists.data

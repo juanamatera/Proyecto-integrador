@@ -1,75 +1,63 @@
-<!-- 
-Nombre del track  OKKK
-Imagen   OKKKK
-Nombre del artista (hipervínculo al detalle del artista) OKKKK
-Duración OKKKK
-Nombre del álbum(hipervínculo al detalle del álbum)
-Botón agregar a la playlist  OKKKK
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tracks</title>
+    <title>Doc</title>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="proyecto/css/fyhGeneral.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"> </script>
-    <link rel="stylesheet" href="proyecto/css/detalleTrack.css">
-    <script src="js/detalleTracks.js"></script>
-    <link rel="stylesheet" href="proyecto/css/fyhGeneral.css">
+    <script src="js/buscador.js"></script>
+    <link rel="stylesheet" href="proyecto/css/detallehome.css">
+    <link rel="stylesheet" href="proyecto/css/buscador.css">
 </head>
-
 <body>
-
     <header class="main-header">
         <a href="proyecto.html">
-            <img src="Img/logo.PNG" alt="logotipo" class="logo">
-            </a>
+        <img src="Img/logo.PNG" alt="logotipo" class="logo">
+        </a>
 
         <nav class="main-nav">
             <ul>
-                <li><a href="home.html"> HOME</a> </li>
+                <li><a href="home.html"> HOME</a></li>
                 <li><a href="playlist.html">PLAYLISTS</a></li>
                 <li><a href="genero.html">GENEROS</a></li>
                 <li class="buscador"><nav class="uk-navbar-container" uk-navbar>
                     <div class="uk-navbar-left">
                         <div class="uk-navbar-item">
-                            <form class="uk-search uk-search-navbar" action="buscador.html" method="GET">
-                                <span uk-search-icon></span>
-                                <input class="uk-search-input" type="text" placeholder="Search...">
+                    <form class="uk-search uk-search-navbar" action="buscador.html" method="GET">
+                        <span uk-search-icon></span>
+                        <input class="uk-search-input" type="text" placeholder="Search...">
                     </form>
                 </div>
             </div>
         </nav></li>
             </ul>
         </nav>
+       
     </header>
 
-    <section class="DetalleArtista">
+    <section class="contenedor-busqueda">
+        <div class="textoBuscado">
+            <h2>Resultados de tu busqueda...</h2>
+            <ul class="resultadosBusqueda">
 
-        <!--<article class="artista">
-            <div class="photo-container">
-                <img class="photo" src="Img/PORFA.png" alt="PORFA">
-            </div> 
-            <div class="info">
-                <p class="cancion">TRACK</p>
-                <h1>Porfa</h1> 
-                <a href="detallehome.html">
-                    <p class="artist">Feid, Justin Quiles</p>
-                </a>
-                <p class="duracion">Duracion: 4:25</p>
-                <a href="detalleAlbum.html">
-                    <p class="nombreAlbum">PORFA - SENCILLO</p>
-                </a>
-                <p class="agregar">AÑADIR A PLAYLIST</h2>
-                
+            </ul>
+        </div>
+
+        <article class="cargando">
+            <div uk-spinner="ratio: 4">
             </div>
-        </article>-->
+        </article>
     </section>
+
+   
+
+
+
+
 
 
     <footer class="main-footer">
@@ -91,6 +79,5 @@ Botón agregar a la playlist  OKKKK
 
     </footer>
 
-    
 </body>
 </html>
