@@ -25,7 +25,7 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var artistas = resultados.data[i];
 
-                contenido += ` <a href="" class="artista">
+                contenido += ` <a href="detallehome.html" class="artista">
                 <div class="photo-container"> 
                     <img src="${artistas.picture_big}" alt="">
                 </div>
@@ -52,11 +52,12 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var albums = resultados.data[i];
 
-                contenido += ` <a href="" class="album">
+                contenido += ` <a href="detalleAlbum.html" class="album">
                 <div class="photo-container"> 
                     <img src="${albums.cover_big}" alt="">
                 </div>
                 <h3>${albums.title}</h3>
+                <p> ${albums.artist.name}</p>
             </a>
          `
             }
@@ -79,13 +80,13 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var tracks = resultados.data[i];
 
-                contenido += ` <a href="" class="track">
+                contenido += ` <a href="detalletracks.html" class="track">
                 <div class="photo-container"> 
                     <img src="${tracks.album.cover_big}" alt="">
                 </div>
                 <h3>${tracks.title}</h3>
-            </a>
-         `
+                <p>${tracks.album.title}</p>
+            </a>`
             }
 
             var contenedor = document.querySelector('.ListaTracks')
