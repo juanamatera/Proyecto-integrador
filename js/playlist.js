@@ -28,7 +28,7 @@ if (window.localStorage.getItem ("listId") === null) {
         track.innerHTML += `
         <div class="a">
         <p class="heart"><i class="fa fa-heart"></i></p>
-        <a href="detalletracks.html?IdTrack=${cancion.id}">
+        <a href="detalleplaylist.html?IdTrack=${cancion.id}">
         <p class="titulo">${cancion.title}</p>
         </a>
         <p class="artista">${cancion.artist.name}</p>

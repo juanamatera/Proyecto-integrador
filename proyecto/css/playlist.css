@@ -13,7 +13,7 @@ body{
     width: 100%;
     
 }
-.principal{
+/*.principal{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -28,32 +28,33 @@ body{
    margin-left: 10px;
    flex-direction: row;
    margin-bottom: 30px;
-  }
-  .descripcion {
+}
+
+.descripcion {
     color: white;
     width: 70%;
     margin-left: 50px;
     margin-top: 30px;
-  }
+}
 
-  .descripcion p {
-      color: grey;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 12px;
-  }
+.descripcion p {
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
 
-  .descripcion .seguidores{
+.descripcion .seguidores{
     color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-  }
+}
 
 .descripcion .lorem {
     color: white;
     font-size: 15px;
-}
+}*/
 
-.descripcion .reproducir {
+/*.descripcion .reproducir {
     color:black;
     background-color:rgba(247, 210, 216, 0.938);
     font-size: 15px;
@@ -65,22 +66,22 @@ body{
    text-align: center;
     padding-top: 10px;
     padding: 10px;
-}
+}*/
 
-.photo-container .photo{
+/*.photo-container .photo{
     border-radius: 100%;
     width: 200px;
     height: 200px;
     border: solid white 1px;
     margin-top: 50px;
     margin-left: 80px;
-}
+}*/
 
-.a:hover { 
+/*.a:hover { 
     background-color: rgba(128, 128, 128, 0.205);
-}
+}*/
 
-.artista1{
+/*.artista1{
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -88,6 +89,24 @@ body{
 }
 .svg-inline--fa.fa-w-16{
 margin-left: 10px;
+}*/
+
+/*.artista1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+}*/
+
+.miPlaylist{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.svg-inline--fa.fa-w-16{
+    margin-left: 10px;
 }
 
 
@@ -98,9 +117,9 @@ p{
     width: 90%;
     display: flex;
     flex-wrap: wrap;
- margin-left: 80px;
- margin-bottom: 80px;
-    
+    margin-bottom: 80px;
+    margin-left: 70px;
+   
 }
 
 .titulos {
