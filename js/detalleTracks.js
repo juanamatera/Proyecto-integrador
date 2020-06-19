@@ -43,15 +43,41 @@ window.onload = function(){
                 <p class="nombreAlbum">${resultados.album.title}</p>
             </a>
             <p class="agregar">AÑADIR A PLAYLIST</p>
+            <p class="agregado">AÑADIDO </p>
             
         </div>
     </article>`
 
     contenedorTracks.innerHTML = DetalleArtista
 
-    let agregar = document.querySelector (".agregar")
+    let agregar= document.querySelector (".agregar").style.display = "block";
+
+
+    let agregado = document.querySelector (".agregado")
+
+
+    
+
+    if (window.localStorage.getItem ("listId") === null) {
+
+        
+    } else {
+
+    let listaSecundaria = JSON.parse (window.localStorage.getItem ("listId"))
+
+    for (const id of listaSecundaria) {
+        if (id==resultados.id) {
+
+        }
+        
+    }
+
+    }
+
 
     agregar.onclick = function(){
+
+        agregar.style.display = 'none';
 
         window.localStorage.setItem (`${resultados.id}`, JSON.stringify (resultados))
 
@@ -62,7 +88,7 @@ window.onload = function(){
             
         } else {
 
-            var listaSecundaria = JSON.parse (window.localStorage.getItem ("listId"))
+            let listaSecundaria = JSON.parse (window.localStorage.getItem ("listId"))
             listaSecundaria.push (resultados.id)
             window.localStorage.setItem (`listId`, JSON.stringify (listaSecundaria))
             

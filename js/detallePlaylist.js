@@ -44,6 +44,41 @@ window.onload = function(){
                 </div>
             </article>`
 
+        
+
+        var botonEliminar = document.querySelector(".eliminar")
+        botonEliminar.onclick = function(){
+            window.localStorage.removeItem (`${resultados.id}`)
+
+            var eliminarLista = JSON.parse(window.localStorage.get("listId"))
+
+            for (let i = 0; i < eliminarLista.length; i++) {
+
+                const id = eliminarLista[i];
+                
+            
+                if (id==resultados.id) {
+
+                    eliminarLista.splice(i,1)
+
+                }
+
+            }
+
+            if (eliminarLista.length==0) {
+
+                window.localStorage.removeItem("listId")
+                
+            } else {
+
+                window.localStorage.setItem("listId", JSON.stringify(eliminarLista))
+                
+            }
+
+        }
+
+        
+
     })
 
 
