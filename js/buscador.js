@@ -25,7 +25,7 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var artistas = resultados.data[i];
 
-                contenido += ` <a href="detallehome.html" class="artista">
+                contenido += ` <a href="detallehome.html?artistID=${artistas.id}" class="artista">
                 <div class="photo-container"> 
                     <img src="${artistas.picture_big}" alt="">
                 </div>
@@ -52,7 +52,7 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var albums = resultados.data[i];
 
-                contenido += ` <a href="detalleAlbum.html" class="album">
+                contenido += ` <a href="detalleAlbum.html?IdAlbum=${albums.id}" class="album">
                 <div class="photo-container"> 
                     <img src="${albums.cover_big}" alt="">
                 </div>
@@ -80,7 +80,7 @@ window.onload = function () {
             for (var i = 0; i < 5; i++) {
                 var tracks = resultados.data[i];
 
-                contenido += ` <a href="detalletracks.html" class="track">
+                contenido += ` <a href="detalletracks.html?IdTrack=${tracks.id}" class="track">
                 <div class="photo-container"> 
                     <img src="${tracks.album.cover_big}" alt="">
                 </div>
