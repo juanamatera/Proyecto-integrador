@@ -67,7 +67,7 @@ window.onload = function(){
 
     }
 
-    let agregado = document.querySelector (".agregado")
+    let agregar = document.querySelector (".agregar")
 
 
     agregar.onclick = function(){
