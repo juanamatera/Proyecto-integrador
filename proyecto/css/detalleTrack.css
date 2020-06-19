@@ -85,7 +85,7 @@ body{
 .artista .agregar {
     color:black;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 200px;
     height: 20px;
@@ -99,7 +99,7 @@ body{
 .artista .agregado {
     color:black;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 200px;
     height: 20px;

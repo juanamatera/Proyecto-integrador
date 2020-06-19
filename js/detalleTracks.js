@@ -43,20 +43,13 @@ window.onload = function(){
                 <p class="nombreAlbum">${resultados.album.title}</p>
             </a>
             <p class="agregar">AÑADIR A PLAYLIST</p>
-            <p class="agregado">AÑADIDO </p>
+    
             
         </div>
     </article>`
 
     contenedorTracks.innerHTML = DetalleArtista
 
-    let agregar= document.querySelector (".agregar").style.display = "block";
-
-
-    let agregado = document.querySelector (".agregado")
-
-
-    
 
     if (window.localStorage.getItem ("listId") === null) {
 
@@ -74,10 +67,12 @@ window.onload = function(){
 
     }
 
+    let agregado = document.querySelector (".agregado")
+
 
     agregar.onclick = function(){
 
-        agregar.style.display = 'none';
+        
 
         window.localStorage.setItem (`${resultados.id}`, JSON.stringify (resultados))
 
